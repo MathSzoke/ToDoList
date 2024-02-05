@@ -2,7 +2,7 @@
 
 <h3>Descrição:</h3>
 
-O projeto é orientado a DDD (Domain-driven design). Apesar de saber que o teste requisitava de um teste super básico, e sabendo que eu poderia ter evitado um monte de código, preferi apresentá-los meus conhecimentos em projetos orientados a DDD.
+O projeto é orientado a DDD (Domain-driven design). Apesar de saber que o teste requisitava de um desafio super básico, e sabendo que eu poderia ter evitado um monte de código, preferi apresentá-los meus conhecimentos em projetos orientados a DDD.
 
 A Solution consiste em 4 projetos, sendo eles:
 
