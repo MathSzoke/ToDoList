@@ -6,10 +6,10 @@ O projeto é orientado a DDD (Domain-driven design). Apesar de saber que o teste
 
 A Solution consiste em 4 projetos, sendo eles:
 
-Application (Application é o projeto onde irá atuar como o intermédio entre Presentation e Domain)
-Domain (Domain é o núcleo da aplicação, onde residem as regras de negócios e as entidades principais do domínio)
-Infra (O projeto Infra é responsável pela implementação das camadas de infraestrutura, como persistência de dados, comunicação com serviços externos)
-Presentation (O projeto Presentation é responsável por lidar com a interação do usuário e pela entrega da resposta da aplicação)
+- Application (Application é o projeto onde irá atuar como o intermédio entre Presentation e Domain)
+- Domain (Domain é o núcleo da aplicação, onde residem as regras de negócios e as entidades principais do domínio)
+- Infra (O projeto Infra é responsável pela implementação das camadas de infraestrutura, como persistência de dados, comunicação com serviços externos)
+- Presentation (O projeto Presentation é responsável por lidar com a interação do usuário e pela entrega da resposta da aplicação)
 
 <h3>Application:</h3>
 
