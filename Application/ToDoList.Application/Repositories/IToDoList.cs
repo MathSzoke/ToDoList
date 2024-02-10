@@ -1,7 +1,4 @@
-﻿using Application.DTOs;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Application.Repositories;
+﻿namespace Application.Repositories;
 
 /// <summary>
 /// Interface que define operações relacionadas a listas de tarefas.

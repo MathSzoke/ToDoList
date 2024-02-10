@@ -1,0 +1,9 @@
+﻿global using Domain.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Data.EntitiesConfig.Utils;
+global using System.Data.Entity.ModelConfiguration;
+global using System.Data.Entity.Infrastructure.Annotations;
+global using System.Data.Entity.ModelConfiguration.Configuration;
+global using Microsoft.Extensions.Configuration;
+global using Infra.Data.EntitiesConfig;

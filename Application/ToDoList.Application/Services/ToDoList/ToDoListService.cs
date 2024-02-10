@@ -1,13 +1,4 @@
-﻿using Application.DTOs;
-using Infra.Data.Contexts;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Application.Repositories;
-using AutoMapper;
-using Domain.Entities;
-using Domain.Services.StringExpression;
-
-namespace Application.Services.ToDoList;
+﻿namespace Application.Services.ToDoList;
 
 /// <summary>
 /// Serviço que gerencia operações relacionadas a listas de tarefas.

@@ -1,10 +1,4 @@
-﻿using Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Data.EntitiesConfig.Utils;
-using System.Data.Entity.ModelConfiguration;
-
-namespace Infra.Data.EntitiesConfig;
+﻿namespace Infra.Data.EntitiesConfig;
 
 /// <inheritdoc />
 internal class ToDoListConfig : EntityTypeConfiguration<ToDoListEntity>, IEntityTypeConfiguration<ToDoListEntity>

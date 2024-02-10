@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace Domain.Services.StringExpression;
+﻿namespace Domain.Services.StringExpression;
 
 /// <summary>
 /// Classe parcial contendo expressões de string relacionadas.

@@ -1,9 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Domain.Entities;
-using Microsoft.Extensions.Configuration;
-using Infra.Data.EntitiesConfig;
-
-namespace Infra.Data.Contexts;
+﻿namespace Infra.Data.Contexts;
 
 /// <summary>
 /// Contexto do banco de dados para gerenciar as interações com as entidades relacionadas a listas de tarefas.

@@ -1,8 +1,4 @@
-﻿using Application.DTOs;
-using Microsoft.AspNetCore.Mvc;
-using Application.Repositories;
-
-namespace ToDoList.Presentation.Controllers;
+﻿namespace ToDoList.Presentation.Controllers;
 
 /// <summary>
 /// Controller responsável por gerenciar operações relacionadas a listas de tarefas.

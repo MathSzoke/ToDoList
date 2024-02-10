@@ -1,8 +1,4 @@
-﻿using Application.DTOs;
-using AutoMapper;
-using Domain.Entities;
-
-namespace Application.Services.AutoMapper;
+﻿namespace Application.Services.AutoMapper;
 
 /// <summary>
 /// Classe de configuração do AutoMapper para mapeamento entre entidades e DTOs relacionados a listas de tarefas.

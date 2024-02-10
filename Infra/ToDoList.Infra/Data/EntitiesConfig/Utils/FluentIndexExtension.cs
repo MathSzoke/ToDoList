@@ -1,9 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Entity.Infrastructure.Annotations;
-using System.Data.Entity.ModelConfiguration;
-using System.Data.Entity.ModelConfiguration.Configuration;
-
-namespace Data.EntitiesConfig.Utils;
+﻿namespace Data.EntitiesConfig.Utils;
 
 /// <summary>
 /// Extensão para configuração de índices usando o Entity Framework.
@@ -43,7 +38,7 @@ public static class FluentIndexExtension
         foreach (var property in properties)
         {
             // Adiciona a anotação "Index" com as informações do índice para a coluna
-            property.HasColumnAnnotation("Index", new IndexAnnotation(new IndexAttribute(indexName, partIndex) { IsClustered = isClustered }));
+            property.HasColumnAnnotation("Index", new IndexAnnotation(new System.ComponentModel.DataAnnotations.Schema.IndexAttribute(indexName, partIndex) { IsClustered = isClustered }));
             partIndex++;
         }
     }

@@ -1,0 +1,9 @@
+﻿global using Application.Repositories;
+global using Application.Services.AutoMapper;
+global using Application.Services.ToDoList;
+global using Infra.Data.Contexts;
+global using Microsoft.EntityFrameworkCore;
+global using Application.DTOs;
+global using Microsoft.AspNetCore.Mvc;
+global using ToDoList.Presentation.Extensions;
+global using Presentation.Extensions.DbExtensions;
